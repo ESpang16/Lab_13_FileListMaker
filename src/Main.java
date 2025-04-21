@@ -159,7 +159,7 @@ public class Main {
             fileScanner.close();
             System.out.println("List loaded from " + fileName);
         } catch (FileNotFoundException e) {
-            System.out.println("⚠️ File not found. Make sure it's in the project folder.");
+            System.out.println("File not found. Make sure it's in the project folder.");
         }
     }
 }
